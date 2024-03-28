@@ -1,0 +1,45 @@
+/* shipping.css */
+
+.shipping-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; /* You can change this to match your site's theme */
+  }
+  
+  .shipping-content {
+    padding: 20px;
+    max-width: 800px; /* Adjust based on your preference */
+    margin: auto; /* Centers the content */
+    line-height: 1.6;
+    font-family: Arial, sans-serif; /* Choose a font that fits your site's design */
+  }
+  
+  .shipping-content h1 {
+    color: #333; /* Adjust the color as needed */
+    margin-bottom: 20px;
+    font-size: 4rem; /* Larger font size for main heading */
+  }
+  
+  .shipping-content p {
+    color: #555; /* Paragraph text color */
+    margin-bottom: 15px;
+    text-align: left; /* Adjust text alignment as needed */
+  }
+  
+  .shipping-content strong {
+    color: #000; /* Bold text color */
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .shipping-content {
+      padding: 10px;
+      font-size: 2rem;
+    }
+  
+    .shipping-content h1 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+  }
+  
